@@ -35,7 +35,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config #科学上网插件，�
 ##广告管理##
 
 ##DNS服务##
-echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config #smartdns
+#echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config #smartdns
 #echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=n" >> .config #adg DNS去AD
 
 ##DNS服务##
@@ -51,7 +51,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config #smartdns
 ##音乐解锁##
 
 ##内网穿透服务##
-#echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> .config #zerotier ~1.3M
+echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> .config #zerotier ~1.3M
 #echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
 ##内网穿透服务##
 
